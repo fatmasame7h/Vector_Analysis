@@ -18,6 +18,6 @@ npm run build
 
 ## Progress
 - [x] Step 1: project structure, routing, layouts
-- [ ] Step 2: math engines + Jest tests
+- [x] Step 2: coordinate, point and vector engines + Jest tests (`npm test`)
 - [ ] Step 3: 3D visualization engine
 - [ ] Step 4: pages and tools
