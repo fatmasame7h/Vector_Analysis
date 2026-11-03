@@ -6,6 +6,7 @@ import { useTheme } from '../../context/ThemeContext';
 const links = [
   { to: '/', label: 'Home', end: true },
   { to: '/formulas', label: 'Formula Library', end: false },
+  { to: '/history', label: 'History', end: false },
   { to: '/about', label: 'About', end: false },
 ];
 

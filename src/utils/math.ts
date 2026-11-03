@@ -22,3 +22,4 @@ export class UndefinedResultError extends Error {
 export function assertFinite(...values: number[]): void {
   for (const v of values) if (!Number.isFinite(v)) throw new Error('All inputs must be finite numbers.');
 }
+export type AngleUnit = 'deg' | 'rad';
